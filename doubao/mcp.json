@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "geo": {
+      "type": "streamable-http",
+      "url": "https://geo.wenjjiegeo.cn/api/tlrai/mcp"
+    }
+  }
+}

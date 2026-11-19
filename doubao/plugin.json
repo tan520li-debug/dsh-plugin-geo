@@ -1,0 +1,17 @@
+{
+  "name": "geo",
+  "version": "1.0.0",
+  "description": "保存已确认的公司资料，并按资料生标题和生文。",
+  "extensions": {
+    "com.doubao": {
+      "displayName": { "zh": "GEO优化" },
+      "displayDescription": { "zh": "保存已确认的公司资料，并按资料生标题和生文。" },
+      "mcpServers": {
+        "geo": {
+          "displayName": { "zh": "GEO优化" },
+          "displayDescription": { "zh": "保存公司资料，生标题，生文。" }
+        }
+      }
+    }
+  }
+}

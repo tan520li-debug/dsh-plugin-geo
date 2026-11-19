@@ -1,0 +1,7 @@
+- insert:
+    - id: geo
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: geo
+        transport: streamable-http
+        url: https://geo.wenjjiegeo.cn/api/tlrai/mcp
