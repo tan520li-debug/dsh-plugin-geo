@@ -5,3 +5,10 @@
         serverName: geo
         transport: streamable-http
         url: https://geo.wenjjiegeo.cn/api/tlrai/mcp
+    - id: geo-skills
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: geo
+        includeDefaultRoots: false
+        customSkillDirs:
+          - !!js process.getBuiltinModule('node:path').join(process.getBuiltinModule('node:path').dirname(process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('dsh-plugin-geo/package.json')), 'skills')

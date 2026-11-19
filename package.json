@@ -10,7 +10,8 @@
   "files": [
     "cordis.patch.yml",
     "locale/*.json",
-    "docs"
+    "docs",
+    "skills"
   ],
   "dsh": {
     "bundle": {
