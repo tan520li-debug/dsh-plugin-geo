@@ -1,15 +1,21 @@
 {
   "name": "geo",
-  "version": "1.0.0",
-  "description": "保存已确认的公司资料，并按资料生标题和生文。",
+  "version": "1.1.0",
+  "description": "保存已确认的公司和产品资料，为选定的一款产品写标题和文章，并按已测结果说明要加强的地方。",
   "extensions": {
     "com.doubao": {
-      "displayName": { "zh": "GEO优化" },
-      "displayDescription": { "zh": "保存已确认的公司资料，并按资料生标题和生文。" },
+      "displayName": { "zh": "GEO优化", "en": "GEO" },
+      "displayDescription": {
+        "zh": "保存已确认的公司和产品资料，为选定的一款产品写标题和文章，并按已测结果说明要加强的地方。",
+        "en": "Save confirmed company and product facts, write a title and article for one product, and state what to strengthen from completed measurements."
+      },
       "mcpServers": {
         "geo": {
-          "displayName": { "zh": "GEO优化" },
-          "displayDescription": { "zh": "保存公司资料，生标题，生文。" }
+          "displayName": { "zh": "GEO优化", "en": "GEO" },
+          "displayDescription": {
+            "zh": "保存公司与产品资料，生成标题和文章，并按已完成的测量给出诊断和加强项。",
+            "en": "Save company and product facts, generate titles and articles, and report only completed measurements."
+          }
         }
       }
     }

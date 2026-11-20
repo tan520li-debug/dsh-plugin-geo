@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "GEO",
-    "description": "Save confirmed company facts, then draft titles and articles.",
+    "description": "Save company and product facts, draft titles and articles for one product, diagnose and plan from completed measurements only.",
     "detail": "docs/DETAIL.md"
   }
 }

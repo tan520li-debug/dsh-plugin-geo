@@ -1,10 +1,11 @@
 {
   "name": "dsh-plugin-geo",
-  "version": "1.0.0",
-  "description": "把界问 GEO 接到 DSH。保存已确认的公司资料，并生标题、生文。",
+  "version": "1.1.0",
+  "description": "界问 GEO：DSH 插件与豆包 doubao/ 上架包。保存资料、生标题生文、诊断与方案。",
   "license": "MIT",
   "type": "module",
   "exports": {
+    "./package.json": "./package.json",
     "./locale/*.json": "./locale/*.json"
   },
   "files": [

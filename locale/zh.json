@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "GEO优化",
-    "description": "保存已确认的公司资料，并按资料生标题和生文。",
+    "description": "保存公司与产品资料，为选定产品生标题、正文，并按已测结果做诊断与方案。",
     "detail": "docs/DETAIL.md"
   }
 }
